@@ -1,0 +1,50 @@
+#header {
+    background-color: blueviolet;
+
+}
+
+#sidebar1 {
+    
+    text-align: center;
+
+}
+div ul.menu li{
+   
+    display: inline;
+    float: left;
+    margin-top: 8px;
+    text-align: center;
+    margin: 20px;
+    background-color:antiquewhite;
+}
+#main {
+    background-color: darkkhaki;
+    margin:150px;
+    float: center;
+    text-align: center;
+
+}
+
+#footer {
+    background-color:black;
+    padding: 5px;
+    margin-top: 150px; 
+   
+}
+
+div ul.footer li {
+    display: block;
+    color: white;
+    padding: 8px;
+    margin:0px;
+    width: 6%;
+    text-decoration: none;
+    
+}
+
+@media only screen and(max-width:620px) 
+{ .menu,#main,.footer,.header{
+    width: 100%;
+}
+    
+}
